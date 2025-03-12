@@ -54,6 +54,9 @@ public class LivreService {
     }
 
     public List<Livre> findAll(){
+        for(Livre livre : this.livres){
+            System.out.println(livre);
+        }
         return this.getLivres();
     }
 
