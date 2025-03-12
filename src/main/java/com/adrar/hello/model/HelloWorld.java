@@ -1,5 +1,8 @@
 package com.adrar.hello.model;
 
+import com.adrar.hello.service.LivreService;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class HelloWorld {
     private String value;
 

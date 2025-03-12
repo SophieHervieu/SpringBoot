@@ -5,7 +5,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class HelloWorldService {
+
     public HelloWorld getHelloWorld() {
-        return new HelloWorld();
+        HelloWorld hello = new HelloWorld();
+        hello.setValue("Hello World");
+        return hello;
     }
 }
